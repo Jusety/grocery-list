@@ -1,0 +1,28 @@
+body{
+	overflow: hidden;
+	background-color: yellowgreen;
+}
+
+.container{
+	width: 95%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+.grocList{
+	background-color: aliceblue;
+	width: 50%;
+	height: 100vh;
+	font-style: italic;
+	text-align: center;
+}
+
+input{
+	font-family: inherit;
+	outline: 0;
+	border: 0;	
+	border-bottom: solid 3px;
+	font-size: 1.5rem;
+	width: 70%;
+}
